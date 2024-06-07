@@ -1,0 +1,7 @@
+[*.cs]
+
+# CS8600: Converting null literal or possible null value to non-nullable type.
+dotnet_diagnostic.CS8600.severity = error
+
+# CA1000: Do not declare static members on generic types
+dotnet_diagnostic.CA1000.severity = none

@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/web/NashTechProjectBE.Web/bin/Debug/net8.0/NashTechProjectBE.Web.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/web/NashTechProjectBE.Web",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Web/NashTechProjectBE.Web/Views"
+            }
+        }
+    ]
+}

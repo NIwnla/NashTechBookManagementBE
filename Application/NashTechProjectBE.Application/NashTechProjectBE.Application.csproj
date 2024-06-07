@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\NashTechProjectBE.Domain\NashTechProjectBE.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.IdentityModel">
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.IdentityModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Selectors">
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.IdentityModel.Selectors.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
